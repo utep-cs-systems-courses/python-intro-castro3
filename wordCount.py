@@ -16,8 +16,6 @@ with open(inputFname, 'r') as i:
 list = re.findall("\S+", lines)
 list = [item.strip(",.:;'-").lower() for item in list]
 
-print(list)
-
 # Dic for storing the words and the times it repeats
 wordList = {}
 
